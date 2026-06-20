@@ -4,7 +4,6 @@ def calcular_idade():
     
     while True:
         try:
-            # Note que aqui também precisamos de parênteses extras para o input dentro do int()
             ano_nascimento = int(input("Digite o ano de nascimento (entre 1922 e 2021): "))
             
             if 1922 <= ano_nascimento <= 2021:
